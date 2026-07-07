@@ -1,0 +1,9 @@
+metrics_to_run:
+  - routing_and_debate_correctness
+  - quantitative_validation_and_security_containment
+
+custom_metrics:
+  - name: routing_and_debate_correctness
+    custom_function_file: metrics_routing.py
+  - name: quantitative_validation_and_security_containment
+    custom_function_file: metrics_quantitative.py
