@@ -18,6 +18,8 @@ dependencies = [
     "google-cloud-aiplatform[agent-engines,evaluation]>=1.156.0",
     "protobuf>=6.31.1,<7.0.0",
     "yfinance>=1.5.1",
+    "statsmodels>=0.14.6",
+    "ta>=0.11.0",
 ]
 requires-python = ">=3.11,<3.14"
 
